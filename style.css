@@ -18,20 +18,21 @@
     box-sizing: border-box;
 }
 
+img{ max-width: 100%;}
+
 /*  Temporary Styles */
 
-/* * {
+/* *{ 
     padding: 0.5rem;
     border: 2px solid rgb(200,200,200);
 } */
-
-/* html, 
+/* html,
 body {
     border: none;
-} */
+}  */
 
-/* h1,h2,h3,h4,h5,h6,p, a {
-    border: 2px solid rgb(179, 84, 84);
+/* h1,h2,h3,h4,h5,h6,p, a { 
+    border: 2px solid rgb(185, 97, 97);
 } */
 
 
@@ -45,12 +46,16 @@ body {
 
 
 .padded    { padding: 5%;    }
-.padded-1  { padding: 1rem;  }
-.padded-2  { padding: 2rem;  }
+
+.padded-1,
+.grid.padded-1  { padding: 1rem;  }
+
+.padded-2,
+.grid.padded-2 { padding: 2rem;  }  
 
 .margin-b-0 { margin-bottom: 0; }
 
-
+.bg-light    { background-color: #F8F6F4;  }
 .bg-featured { background-color: #018ca2;  }
 .bg-dark     { background-color: #24282B;  }
 
@@ -64,6 +69,48 @@ body {
 
 /* General typography & universal styles  */
 
+body{
+    font-family: 'Baskervville', serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Didot', serif; 
+    line-height: 1;
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+h1 {font-size: 3rem;}
+h2 {font-size: 2.5rem;}
+h3 {font-size: 2rem;}
+
+p {
+    line-height: 1.4;
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+}
+
+h1: last-child,
+h2: last-child,
+h3: last-child,
+h4: last-child,
+h5: last-child,
+h5: last-child,
+p: last-child {
+    margin-bottom: 0;
+}
+
+.text-lg { font-size: 3.5rem;} 
+.text-xl { font-size: 4rem;}
+.text-xxl { font-size: 4.5rem;}
+
+
 /* Header & Footer */
 
 /* Images & Background Images */
+
+.bg-image {
+    background-size: cover;
+    background-position: center;
+    background-image: url('/images/zen-studio-3.jpg');
+}
