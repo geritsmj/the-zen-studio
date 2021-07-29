@@ -60,6 +60,7 @@ body {
 .bg-dark     { background-color: #24282B;  }
 
 .light-text { color: white; } 
+.featured-text { color: #acc3ae}
 
 
 .left   { text-align: left; }
@@ -100,9 +101,9 @@ p: last-child {
     margin-bottom: 0;
 }
 
-.text-lg { font-size: 3.5rem;} 
-.text-xl { font-size: 4rem;}
-.text-xxl { font-size: 4.5rem;}
+.text-lg  { font-size: 4.5rem;} 
+.text-xl  { font-size: 6rem;}
+.text-xxl { font-size: 8rem;}
 
 
 /* Header & Footer */
