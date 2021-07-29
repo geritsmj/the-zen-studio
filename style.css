@@ -101,7 +101,7 @@ p: last-child {
     margin-bottom: 0;
 }
 
-.text-lg  { font-size: 4.5rem;} 
+.text-lg  { font-size: 3rem;} 
 .text-xl  { font-size: 6rem;}
 .text-xxl { font-size: 8rem;}
 
@@ -114,4 +114,21 @@ p: last-child {
     background-size: cover;
     background-position: center;
     background-image: url('/images/zen-studio-3.jpg');
+}
+
+.bg-stone {
+    background-image: url('/images/stone-2.png');
+}
+
+.bg-leaves {
+    background-image: url('/images/zen-studio-1.jpg');
+    background-position: 50% 31%;
+}
+
+.bg-venue {
+    background-image: url('/images/zen-studio-3.jpg');
+}
+
+.bg-map {
+    background-image: url('/images/light-colored-map.png');
 }
