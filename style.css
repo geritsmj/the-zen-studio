@@ -68,6 +68,8 @@ body {
 .right  { text-align: right; }
 
 
+
+
 /* General typography & universal styles  */
 
 body{
@@ -91,6 +93,9 @@ p {
     margin-bottom: 0.8rem;
 }
 
+ul { margin-left: 1rem;}
+li { padding-left: 0.5rem;}
+
 h1: last-child,
 h2: last-child,
 h3: last-child,
@@ -104,9 +109,35 @@ p: last-child {
 .text-lg  { font-size: 3rem;} 
 .text-xl  { font-size: 6rem;}
 .text-xxl { font-size: 8rem;}
+.text-bold { font-weight: bold;}
+
+.text-lato { 
+    font-family: 'lato', sans-serif;
+    font-weight: 300;
+    color:#9dac9e;
+}
+
+.button{
+    color: inherit;
+    border: 1px solid #acc3ae;
+    border-radius: 0.6rem;
+    text-decoration: none;
+    padding: 0.3rem 1.2rem;
+    display: inline-block;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
 
 
 /* Header & Footer */
+
+footer {
+    padding-bottom: 0.5rem;
+    
+}
 
 /* Images & Background Images */
 
@@ -131,4 +162,15 @@ p: last-child {
 
 .bg-map {
     background-image: url('/images/light-colored-map.png');
+}
+
+.shape-teardrop {
+    border-radius: 20rem;
+    border-bottom-right-radius: 20rem;
+    border-bottom-right-radius: 0;
+}
+
+.shape-window {
+    border-top-left-radius: 15rem;
+    border-top-right-radius: 15rem;
 }
