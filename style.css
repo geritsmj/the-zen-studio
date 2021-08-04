@@ -188,6 +188,13 @@ footer {
     .text-xxl { font-size: 6rem;}
     .text-xl {font-size: 3.5rem;}
     .sm-block {display: block;}
+
+    .bg-leaves {
+            background-image: url('/images/leaves-light\ 2.jpg');
+    }
+    .text-center-sm {
+        text-align: center;
+    }
 }
 
 /* Gridlex extra small media query Max 576px _xs-* */
