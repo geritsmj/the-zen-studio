@@ -174,3 +174,34 @@ footer {
     border-top-left-radius: 15rem;
     border-top-right-radius: 15rem;
 }
+
+/*  Gridlex media Queries
+@media (max-width: 36em) Max 576px _xs-*
+@media (max-width: 48em) Max 768px _sm-*
+@media (max-widht: 64em) Max 1024px _md-*
+@media (max-width: 80em) Max 1280px _lg-*
+*/
+
+
+/*  Gridlex small media query Max 768px _sm-* */
+@media (max-width: 48em){
+    .text-xxl { font-size: 6rem;}
+    .text-xl {font-size: 3.5rem;}
+    .sm-block {display: block;}
+}
+
+/* Gridlex extra small media query Max 576px _xs-* */
+
+@media (max-width: 36em){
+    .text-xxl {font-size: 4rem;}
+    .text-xl {font-size: 2.5rem;}
+    .text-lg {font-size: 2.5rem;}
+    
+}
+
+/* Gridlex extra extra small media query Max 350px _xxs-* */
+
+@media (max-width: 25em){
+    .text-xxl {font-size: 2.5rem;}
+}
+
